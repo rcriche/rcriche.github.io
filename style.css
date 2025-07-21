@@ -1,0 +1,53 @@
+/* style.css - Visual limpo para o Arquivo do Heremita Conectado */
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #f7f7f7;
+  color: #222;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #444;
+}
+
+.intro {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
