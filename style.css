@@ -1,13 +1,13 @@
 /* Reset básico para consistência */
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* Estilo geral do corpo */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #ffffff; /* Fundo branco, super leve */
     color: #333333; /* Texto escuro e limpo */
     text-align: center;
