@@ -1,45 +1,72 @@
+/* Reset básico para consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo */
 body {
     font-family: 'Arial', sans-serif;
-    background: #f4f4f4;
-    color: #333;
+    background: #ffffff; /* Fundo branco, super leve */
+    color: #333333; /* Texto escuro e limpo */
     text-align: center;
-    margin: 0;
-    padding: 20px;
+    padding: 15px; /* Menos padding para um look compacto */
 }
+
+/* Container principal */
 .container {
-    max-width: 600px;
+    max-width: 400px; /* Largura menor para minimalismo */
     margin: 0 auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+/* Título com seu nome */
 h1 {
-    color: #007bff;
-    font-size: 2em;
+    font-size: 1.5em; /* Fonte menor para um visual leve */
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
 }
+
+/* Descrição */
 p {
-    font-size: 1.1em;
-    margin-bottom: 20px;
+    font-size: 0.9em; /* Texto pequeno e discreto */
+    color: #666666;
+    margin-bottom: 15px;
 }
+
+/* Estilo dos links */
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px; /* Espaçamento menor */
+}
+
 .links a {
-    display: inline-block;
-    margin: 5px;
-    padding: 10px 20px;
-    background: #007bff;
-    color: #fff;
+    font-size: 0.85em; /* Botões menores */
+    padding: 5px 10px; /* Padding reduzido */
+    background: #4a90e2; /* Azul suave */
+    color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
+    border-radius: 3px; /* Bordas sutis */
+    transition: background 0.2s ease;
 }
+
 .links a:hover {
-    background: #0056b3;
+    background: #357abd; /* Hover mais escuro */
 }
-@media (max-width: 600px) {
+
+/* Responsividade */
+@media (max-width: 400px) {
     .container {
-        padding: 10px;
+        padding: 8px;
     }
     h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
+    }
+    .links a {
+        font-size: 0.8em;
+        padding: 4px 8px;
     }
 }
