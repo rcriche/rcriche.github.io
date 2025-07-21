@@ -34,6 +34,8 @@ p {
     color: #666666;
     margin-bottom: 15px;
 }
+/* Estilo das listas */
+list-style-type: none;
 
 /* Estilo dos links */
 .links {
